@@ -2,6 +2,72 @@
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
+### Result
+I followed first the walktrough shown in the classroom. Then I implemented the layers function and added to every layer a kernel initializer with standard deviation of 0.01.
+In the optimize function I calculate the cross entropy loss like shown in the classroom. The I used the Adam optimizer.
+In the training function the sesson runs with a learning rate of 0.001.
+I choosed 20 epochs and a batch size of 2.
+The average loss decreases over time:
+EPOCH 1
+Average loss: 7.057241061638141
+
+EPOCH 2
+Average loss: 0.555429138191815
+
+EPOCH 3
+Average loss: 0.4765240321899282
+
+EPOCH 4
+Average loss: 0.37865559705372515
+
+EPOCH 5
+Average loss: 0.27543436103853686
+
+EPOCH 6
+Average loss: 0.22817311348586247
+
+EPOCH 7
+Average loss: 0.20538950038367304
+
+EPOCH 8
+Average loss: 0.1853722806120741
+
+EPOCH 9
+Average loss: 0.1650569324863368
+
+EPOCH 10
+Average loss: 0.17491112084224306
+
+EPOCH 11
+Average loss: 0.150687311281418
+
+EPOCH 12
+Average loss: 0.1383171381107692
+
+EPOCH 13
+Average loss: 0.13818232648331544
+
+EPOCH 14
+Average loss: 0.12862954774293406
+
+EPOCH 15
+Average loss: 0.11738070645209016
+
+EPOCH 16
+Average loss: 0.11104655396835557
+
+EPOCH 17
+Average loss: 0.11347324827621723
+
+EPOCH 18
+Average loss: 0.10706853530016439
+
+EPOCH 19
+Average loss: 0.10999992471830598
+
+EPOCH 20
+Average loss: 0.09840402662240226
+
 ### Setup
 ##### GPU
 `main.py` will check to make sure you are using GPU - if you don't have a GPU on your system, you can use AWS or another cloud computing platform.
